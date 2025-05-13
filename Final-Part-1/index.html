@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thar Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script type = "text/javascript" src = "/javascript/prototype.js"></script>
+    <script type = "text/javascript" src = "/javascript/scriptaculous.js"></script>
+    <script src="script.js"></script> 
+</head>
+<body onload="initialize()">
+    <h2 class="header">Thar Final Project Part 1</h2>
+    <hr>
+    <div class="box1" id="feature">
+        <div class="feature"></div>
+        <div class="text">
+            <h2>Some thing About Product</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, nesciunt.</p>
+            <button onclick="feature()" class="feature_btn">Buy Now</button>
+        </div>
+    </div>
+    <hr>
+    <h2 id="products">Browse our products</h2>
+    <div class="box2" id="product-box">
+        <div class="products" id="product0"> <button class="btn" onclick="buynow('product0')">Buy Now</button></div>
+        <div class="products" id="product1"> <button class="btn" onclick="buynow('product1')">Buy Now</button></div>
+        <div class="products" id="product2"> <button class="btn" onclick="buynow('product2')">Buy Now</button></div>
+        <div class="products" id="product3"> <button class="btn" onclick="buynow('product3')">Buy Now</button></div>
+        <div class="products" id="product4"> <button class="btn" onclick="buynow('product4')">Buy Now</button></div>
+        <div class="products" id="product5"> <button class="btn" onclick="buynow('product5')">Buy Now</button></div>
+        <div class="products" id="product6"> <button class="btn" onclick="buynow('product6')">Buy Now</button></div>
+        <div class="products" id="product7"> <button class="btn" onclick="buynow('product7')">Buy Now</button></div>
+    </div>
+    <hr>
+    <h2 id="contact">Contact for more details</h2>
+    <form  method= "post" id="form" onsubmit="return submitForm()">
+        <div class="name">
+            <input type="text" placeholder="First Name" class="name" id="first_name"/>
+            <input type="text" placeholder="Last Name" class="name" id="last_name"/>
+        </div>
+        <div class="email">
+            <input type="email" placeholder="Email" class="email" id="email"/>
+            <input type="number" placeholder="Phone Number" class="email" id="phone_number"/>
+        </div>
+        
+        <textarea placeholder="Message" class="message"></textarea>
+        <button type="submit" class="submit_btn">Send Message</button>
+    </form>
+</body>
+</html>

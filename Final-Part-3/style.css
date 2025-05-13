@@ -1,0 +1,104 @@
+html{
+    scroll-behavior:smooth;
+}
+
+
+body{
+    padding:0;
+    margin:0;
+}
+
+h2{
+    font-size:50px;
+    margin:0px;
+    padding-bottom:20px;
+    text-align:center;
+}
+.category{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    padding:10px;
+}
+.category a{
+    text-decoration:none;
+    color:black;
+    font-size:30px;
+}
+a:hover{
+    text-decoration:underline;
+}
+.box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+#appetizer{
+    display:grid;
+    grid-template-columns:repeat(3 , 2fr);
+    gap:20px;
+
+}
+
+#appetizer div{
+    width:300px;
+    height:400px;
+    border:1px solid black;
+    border-radius:5px;
+}
+#appetizer div img{
+    width:300px;
+    height:400px;
+    object-fit:fill;
+}
+#entree{
+    display:grid;
+    grid-template-columns:repeat(3 , 2fr);
+    gap:20px;
+}
+
+#entree div{
+    width:300px;
+    height:400px;
+    border:1px solid black;
+}
+#entree div img{
+    width:300px;
+    height:400px;
+    object-fit:fill;
+}
+#noodle{
+    display:grid;
+    grid-template-columns:repeat(3 , 2fr);
+    gap:20px;
+}
+
+#noodle div{
+    width:300px;
+    height:400px;
+    border:1px solid black;
+}
+#noodle div img{
+    width:300px;
+    height:400px;
+    object-fit:fill;
+}
+#desserts{
+    display:grid;
+    grid-template-columns:repeat(3 , 2fr);
+    gap:20px;
+
+}
+
+#desserts div{
+    width:300px;
+    height:400px;
+    border:1px solid black;
+}
+#desserts div img{
+    width:300px;
+    height:400px;
+    object-fit:fill;
+}
