@@ -6,6 +6,8 @@ html{
 body{
     padding:0;
     margin:0;
+    background:#f0ebd8;
+    
 }
 
 h2{
@@ -13,6 +15,7 @@ h2{
     margin:0px;
     padding-bottom:20px;
     text-align:center;
+    
 }
 .category{
     display:flex;
@@ -20,10 +23,12 @@ h2{
     justify-content:center;
     gap:20px;
     padding:10px;
+    
+    
 }
 .category a{
     text-decoration:none;
-    color:black;
+    color:#f77F00;
     font-size:30px;
 }
 a:hover{
@@ -53,18 +58,18 @@ a:hover{
     height:400px;
     object-fit:fill;
 }
-#entree{
+#sushi{
     display:grid;
     grid-template-columns:repeat(3 , 2fr);
     gap:20px;
 }
 
-#entree div{
+#sushi div{
     width:300px;
     height:400px;
     border:1px solid black;
 }
-#entree div img{
+#sushi div img{
     width:300px;
     height:400px;
     object-fit:fill;

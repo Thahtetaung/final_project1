@@ -19,7 +19,6 @@ var sceneOverlayHeight = 0
 var maxSceneOverlayHeight = 80
 var sceneOverlayOpacity = 0;
 
-var moveInterval;
 
 function sceneColor(){
     if(sceneOverlayHeight >= maxSceneOverlayHeight){

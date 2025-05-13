@@ -2,12 +2,42 @@
         $.fakeLoader({
           timeToHide: 1000,
           bgColor: "#1c1854",
-          spinner: "spinner4"
+          spinner: "spinner7"
         });
 
         ScrollReveal().reveal('.box', { delay: 500 });
 
         $("#appetizer").lightGallery({
+          selector:'a',
+          mode:'lg-slide',
+          easing:'linear',
+          speed:1000,
+          height:"100%",
+          closable:true,
+          controls:true,
+          hideBarsDelay: 1000,
+        });
+         $("#sushi").lightGallery({
+          selector:'a',
+          mode:'lg-slide',
+          easing:'linear',
+          speed:1000,
+          height:"100%",
+          closable:true,
+          controls:true,
+          hideBarsDelay: 1000,
+        });
+         $("#noodle").lightGallery({
+          selector:'a',
+          mode:'lg-slide',
+          easing:'linear',
+          speed:1000,
+          height:"100%",
+          closable:true,
+          controls:true,
+          hideBarsDelay: 1000,
+        });
+         $("#desserts").lightGallery({
           selector:'a',
           mode:'lg-slide',
           easing:'linear',
